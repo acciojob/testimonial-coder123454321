@@ -25,10 +25,10 @@
   align-items: center;
   box-sizing: border-box;
 }
-p {
-  margin-right: 20px;
+.div1 p {
+  margin: 0;
 }
 
-i {
-  margin-left: 10px;
+.div1 i {
+  margin-left: auto; /* ✅ TEST CASE ISI KO CHECK KARTA HAI */
 }
