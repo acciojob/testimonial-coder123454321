@@ -15,12 +15,13 @@
     gap: 20px; 
 }
 .div1{
-  width: 80%;               /* ✅ fixed width for center look */
+  width: 80%;              
   background-color: white;
   border: 1px solid #ddd;
-  padding: 15px 20px;       /* ✅ spacing inside box */
-  display: flex;            /* text + name ek line me */
-  justify-content: space-between;
+  padding: 15px 20px;  
+  display: flex;   
+  justify-content:space-between;
+  gap:20px;
   align-items: center;
   box-sizing: border-box;
 }
